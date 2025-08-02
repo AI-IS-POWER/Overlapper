@@ -4,8 +4,9 @@ Copy this command and run it in the terminal.
 ```
 perl -E '($a,$b)=@ARGV; for($i=length$a;$i>=0;$i--){ last if substr($a,-$i) eq substr($b,0,$i) } say $a.substr($b,$i)' sweden denmark
 ```
-This will merge "sweden" and "denmark"
 
+This will merge "sweden" and "denmark"  
+Make sure you have [perl](https://www.perl.org/get.html) installed on your system.
 ## Why I make this repo
 I recently read a challenge on [Sloth Bytes](https://slothbytes.beehiiv.com)
 ```
