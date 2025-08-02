@@ -19,3 +19,4 @@ for (my $i = length($a); $i >= 0; $i--) {
 
 # print result
 print $a . substr($b, $overlap), "\n";
+<STDIN>;
