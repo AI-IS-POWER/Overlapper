@@ -28,4 +28,15 @@ All words will be given in lowercase.
 
 If no overlap is possible, return both words one after the other (example #3).
 ```
-This is the shortest way to accomplish this puzzle(I think so)
+This is the shortest way to accomplish this puzzle(I think so)  
+## Script Wrapper
+Also,there is a perl script wrapper for the one-liner(overlapper.pl in this repo)
+You can use it by executing
+```
+git clone git@github.com:AI-IS-POWER/Overlapper.git
+cd Overlapper
+./overlapper.pl sweden denmark
+```
+**Note that this will open a new shell on Windows.Maybe I will fix it in the future so it will execute in the current shell.**
+
+
